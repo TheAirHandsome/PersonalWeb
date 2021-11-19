@@ -1,0 +1,45 @@
+
+.NextImg{
+    background-image: url(../Pics/NextImg.jpg);
+    float: right;
+    border: none;
+    outline:none;
+}
+
+.Fhr{
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+}
+
+.Musics{
+    text-align: center;
+}
+
+.Musics td{
+    margin: 10px;
+    padding:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Button{
+    width: 50px;
+    height: 50px;
+    float: none;
+}
+
+#Pics{
+    border: 0px;
+    width: 1024px;
+    height: 641px;
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+
+#MusicLink{
+    color: black;
+}

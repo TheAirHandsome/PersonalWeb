@@ -1,0 +1,16 @@
+
+.TitleAndPics{
+    margin: auto;
+    text-align: center;
+    border: 0em;
+    clear: both;
+}
+
+img{
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+
+img:hover{
+    transform: scale(1.2); 
+}

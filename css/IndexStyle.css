@@ -1,0 +1,123 @@
+h2{
+    font-family: "Giddyup Std";
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.PicsBack{
+    background-image: url(../Pics/index/Dear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7px);			
+	-webkit-filter: blur(7px);
+	-ms-filter: blur(7px);		
+    -moz-filter: blur(7px);
+    text-align: center;
+    line-height:750px;
+    float:left;
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 1100px;
+}
+
+.PicsTop{
+    width: 100px;
+    z-index: 2;
+    padding-left: 47%;
+    padding-top: 30%;
+    position: absolute;
+}
+
+.Pics{
+    width: 100%;
+}
+
+.body{
+    text-align: center;
+    height: 800px;
+}
+
+.LeftBar{
+    text-align: center;
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+.Media{
+    text-align: center;
+    padding-top: 1400px;
+}
+
+.Word{
+    padding-left: 25%;
+    text-indent: 2em;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.Map{
+    text-align: center;
+}
+
+.Wenzhou{
+    text-align: center;
+}
+
+#img1{
+    clear: both;
+}
+
+#Menu{
+    color: white;
+    text-decoration:none;
+}
+
+#Music{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 5px;
+}
+
+#Video{
+    padding-top: 20px;
+    margin: 5px;
+    width: 1280px;
+    height: 720px;
+}
+
+#Food{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 5px;
+}
+
+#Spots{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+}
+
+#Map{
+    width: 75%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px;
+    border-radius: 150px;
+}
+
+#Store{
+    height: 200px;
+    width: 200px;
+
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+
+#Store:hover{
+    transform: scale(2.5); 
+}

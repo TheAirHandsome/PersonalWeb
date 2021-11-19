@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Musics</title>
+        <link rel="stylesheet" href="../css/TotalStyle.css">
+        <link rel="stylesheet" href="../css/MusicsStyle.css">
+        <link rel="icon" href="../Pics/icon.ico">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    </head>
+    <body>
+        <div class="TopBar">
+            <div class="TotalTopNavigationBar">
+                <ul class="TopNavigationBar">
+                    <li>
+                        <a href="https://weibo.com/3160911241/profile?topnav=1&wvr=6" target="_blank">
+                            <img src="../Pics/HeadLogo.JPG" class="HeadLogo" width="50px" height="50px" alt="TheAirHandsome's Weibo" title="TheAirHandsome's Weibo">
+                        </a>
+                    </li>
+                    <li><a href="../index.html" class="Menu" target="_blank">Home</a></li>
+                    <li><a href="../Musics/Musics.html" class="Menu" id="Now" target="_blank">Musics</a></li>
+                    <li><a href="../Videos/Videos.html" class="Menu" target="_blank">Videos</a></li>
+                    <li><a href="../Games/Games.html" class="Menu" target="_blank">Games</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="MidBar"></div>
+        <div class="ED">
+            <h2>Ed Sheeran</h2>
+            <div id="Pics">
+                <img id="img1" src="../Pics/Musics/Ed Sheeran/1.jpg"/>
+                <input type="button" onclick="EdNextImg()" class="NextImg" id="Button"/>
+            </div> 
+            <hr width="50%" class="Fhr"/>
+            <table class="Musics" align="center">
+                <tr>
+                    <td><a href="ShapeOfYou.html" id="MusicLink"target="_blank">Shape Of You</a></td>
+                    <td><a href="GalwayGirl.html" id="MusicLink"target="_blank">Galway Girl</td>
+                </tr>
+                <tr>
+                    <td><a href="NancyMulligan.html" id="MusicLink"target="_blank">Nancy Mulligan</a></td>
+                    <td><a href="WhatDoIKnow.html" id="MusicLink"target="_blank">What Do I Know</a></td>
+                </tr>
+                <tr>
+                    <td><a href="SouthOfTheBorder.html" id="MusicLink"target="_blank">South Of The Border</a></td>
+                    <td><a href="Happier.html" id="MusicLink"target="_blank">Happier</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <br/>
+
+        <div class="CC">
+            <h2>Chrissy Costanza</h2>
+            <div id="Pics">
+                <img id="img2" src="../Pics/Musics/CC/1.jpg"/>
+                <input type="button" onclick="ATCNextImg()" class="NextImg" id="Button"/>
+            </div> 
+            <hr width="50%" class="Fhr"/>
+            <table class="Musics" align="center">
+                <tr>
+                    <td><a href="TheFuss.html" id="MusicLink"target="_blank">The Fuss</a></td>
+                    <td><a href="Ain't It Fun.html" id="MusicLink"target="_blank">Ain't It Fun</a></td>
+                </tr>
+                <tr>
+                    <td><a href="Personal.html" id="MusicLink"target="_blank">Personal</a></td>
+                    <td><a href="StrangersAgain.html" id="MusicLink"target="_blank">Strangers Again</a></td>
+                </tr>
+                <tr>
+                    <td><a href="Voices.html" id="MusicLink"target="_blank">Voices</a></td>
+                    <td><a href="InOurBones.html" id="MusicLink"target="_blank">In Our Bones</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <br/>
+
+        <div class="OC">
+            <h2>Owl City</h2>
+            <div id="Pics">
+                <img id="img3" src="../Pics/Musics/OC/1.jpg"/>
+                <input type="button" onclick="OCNextImg()" class="NextImg" id="Button"/>
+            </div> 
+            <hr width="50%" class="Fhr"/>
+            <table class="Musics" align="center">
+                <tr>
+                    <td><a href="GoodTime.html" id="MusicLink"target="_blank">Good Time</a></td>
+                    <td><a href="Unbelievable.html" id="MusicLink"target="_blank">Unbelievable</a></td>
+                </tr>
+                <tr>
+                    <td><a href="TheSalteaterRoom.html" id="MusicLink"target="_blank">The Saltwater Room</a></td>
+                    <td><a href="Tokyo.html" id="MusicLink"target="_blank">Tokyo</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="Tail">
+            <hr width="50%"/>
+            <div>我是有底线的</div>
+            <div>TheAirHandsome版权所有&copy;2020-3020</div>
+        </div>
+    </body>
+    <script>
+        i = 1;
+        function EdNextImg(){
+            i++;
+            document.getElementById("img1").src="../Pics/Musics/Ed Sheeran/" + i + ".jpg ";
+            if(i==3){
+                i=0;
+            }
+        }
+        function ATCNextImg(){
+            i++;
+            document.getElementById("img2").src="../Pics/Musics/CC/" + i + ".jpg ";
+            if(i==3){
+                i=0;
+            }
+        }
+        function OCNextImg(){
+            i++;
+            document.getElementById("img3").src="../Pics/Musics/OC/" + i + ".jpg ";
+            if(i==2){
+                i=0;
+            }
+        }
+</script>
+</html>

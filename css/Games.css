@@ -1,0 +1,16 @@
+.Pics{
+    margin: auto;
+    text-align: center;
+    border: 0em;
+    clear: both;
+}
+.Store{
+    color: black;
+}
+.Word{
+    width: 50%;
+    text-indent: 2em;
+    font-size: 1.5em;
+    padding-left: 25%;
+    padding-top: 25px;
+}

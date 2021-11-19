@@ -1,0 +1,48 @@
+.TopNavigationBar li{
+    font-size: 3em;
+    font-family: 'Chiller';
+    color: white;
+}
+
+.Stuff{
+    width: 100%;
+    text-align: center;
+}
+
+.PicsBack{
+    background-image: url(../Pics/Store/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7px);			
+	-webkit-filter: blur(7px);
+	-ms-filter: blur(7px);		
+    -moz-filter: blur(7px);
+    text-align: center;
+    line-height: 750px;
+    float: left;
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 1;
+    height: 1200px;
+    width: 100%;
+}
+
+.PicsTop{
+    width: 1500px;
+    margin: 5% auto;
+    position: absolute;
+    padding-left: 17%;
+    z-index: 2;
+}
+
+#StuffPics{
+    border-radius: 30px;
+    width: 350px;
+    cursor: pointer;  
+    transition: all 0.6s;
+    margin: 55px 35px;
+}
+
+#StuffPics:hover{
+    transform: scale(1.2); 
+}
